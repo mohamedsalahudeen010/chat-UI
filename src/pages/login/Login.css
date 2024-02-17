@@ -1,0 +1,455 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+  body{
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+  .loginPage{
+    margin: 0%;
+    padding: 0%;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../../images/chat4.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    left: -2;
+    top: 0;
+   
+   
+}
+.login-main{
+padding-top: 4%;
+min-height: 50vh;
+}
+
+  .title-login-user{
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    background-color:  rgb(206, 203, 18);
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+  .form-signIn {
+      align-items: center;
+      margin: auto;
+      padding: 1rem 2rem ;
+      width:60%;
+      height: 60%;
+      border-radius: 50px;  
+      background-color: rgba(21, 21, 21, 0.7);  
+    }
+  form{
+      padding: 5px;
+  }
+  div{
+      padding: 5px;
+  }
+  h1{
+      text-align: center;
+      color: brown;
+      margin-top: -1rem;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .textlabel-signIn{
+      display: block;
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 1rem;
+      margin-left: 2.4rem;
+      color: rgb(250, 250, 250);
+  }
+  .input-login-user{
+      width:80% ;
+      font-size:15px;
+     height: 3rem;
+      padding: 3px 5px;
+      box-sizing: border-box;
+      box-shadow: 3px 3px 3px;
+      margin-top: 2px;
+      color: black;
+  } 
+  .input-login-user:focus{
+    background-color: rgb(224, 197, 197);
+  }
+  .credentials{
+    font-size: 1rem;
+    color: aqua;
+  }
+  .btn{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .login-btn-land{
+      background-color: rgb(115, 5, 5);
+      color: rgb(255, 255, 254);
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 1rem;
+      padding: 0.3rem 3rem;
+      border-radius: 0.5rem;
+  }
+  .login-btn-land:hover{
+    background-color: rgb(243, 242, 246);
+    color: rgb(206, 203, 18);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+    padding: 0.4rem 3.1rem;
+} 
+  
+.forget-password-login-user{
+  display:inline-block;
+  cursor:pointer;
+ color: rgb(239, 232, 232);
+ font-size: 1rem;
+}
+.signUpNavigate{
+  background-color: rgb(206, 203, 18);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: rgb(195, 213, 3) 2px 2px 2px;
+}
+  @media screen and (max-width: 1100px) {
+    
+    .title-login-user{
+     
+      font-size: 2.5rem;
+      margin-top: 2rem;
+    }
+    .signIn-title{
+      font-size: 1.5rem;
+      margin: 1rem;
+      margin-top: -0.1rem;
+      
+    }
+      .form-signIn {
+        width:70%;
+        height: 65%;
+        margin-top: 3rem;
+      }
+      .credentials{
+        font-size: 0.8rem;
+       
+      }
+     
+        .forget-password-login-user{
+          margin: 1.5rem;
+        }
+        .textlabel-signIn{
+         
+          font-size: 1.2rem;
+          
+          margin-top: 1rem;
+         
+      }
+      .input-login-user{
+          width:90% ;
+          font-size:14px;
+         height: 2.8rem;
+      } 
+      .login-btn-land{
+      
+        color: rgb(255, 255, 254);
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 1rem;
+        padding: 0.3rem 2.5rem;
+    }
+    .login-btn-land:hover{
+    
+      font-size: 18px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 1rem;
+      padding: 0.4rem 2.6rem;
+  }
+  }
+  
+
+  @media screen and (max-width: 850px) {
+    
+    .login-main{
+      min-height: 50vh;
+      }
+    .title-login-user{
+     
+      font-size: 1.6rem;
+     
+    }
+    .signIn-title{
+      font-size: 1.5rem;
+      margin: 1rem;
+      margin-top: -0.1rem;
+      
+    }
+      .form-signIn {
+        width:80%;
+        height: 75%;
+        margin-top: 3rem;
+      }
+      .credentials{
+        font-size: 0.8rem;
+       
+      }
+     
+        .forget-password-login-user{
+          margin: 1.5rem;
+        }
+        .textlabel-signIn{
+         
+          font-size: 1.2rem;
+          
+          margin-top: 1rem;
+          margin-left: 2.4rem;
+         
+      }
+      .input-login-user{
+        width:90% ;
+        font-size:13px;
+       height: 2.6rem;
+    } 
+      .login-btn-land{
+      
+     
+        font-size: 15px;
+       
+        margin-left: 1rem;
+        padding: 0.3rem 2.5rem;
+    }
+    .login-btn-land:hover{
+    
+      font-size: 15px;
+    
+      margin-left: 1rem;
+      padding: 0.4rem 2.6rem;
+  }
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    
+    .title-login-user{
+     
+      font-size: 1.5rem;
+     
+    }
+   
+      .form-signIn {
+        width:85%;
+        height: 65%;
+        margin-top: 3rem;
+      }
+      .credentials{
+        font-size: 0.7rem;
+       
+      }
+     
+        .forget-password-login-user{
+          margin: 1.5rem;
+        }
+        .textlabel-signIn{
+         
+          font-size: 1.2rem;
+          
+          margin-top: 1rem;
+          margin-left: 0;
+         
+      }
+      .input-login-user{
+        width:90% ;
+        font-size:12px;
+       height: 2.5rem;
+    } 
+      .login-btn-land{
+        font-size: 15px;
+        padding: 0.3rem 2.2rem;
+    }
+    .login-btn-land:hover{
+    
+      font-size: 15px;
+
+      padding: 0.4rem 2.3rem;
+  }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    
+    .title-login-user{
+      padding: 0.3rem 1rem ;
+      width: 40%;
+    margin-left: 30%;
+   
+    }
+    .signIn-title{
+      font-size: 1.2rem;
+      margin: 1rem;
+      margin-top: -0.5rem;
+      
+    }
+      .form-signIn {
+        width:90%;
+        height: 65%;
+        margin-top: 3rem;
+      }.credentials{
+        font-size: 0.6rem;
+      
+      }
+     
+        .forget-password-login-user{
+          margin: 1.5rem;
+          font-size: 0.5rem;
+          font-weight: bolder;
+        }
+        .textlabel-signIn{
+         
+          font-size: 1.2rem;
+          
+          margin-top: 1rem;
+          margin-left: 2.4rem;
+         
+      }
+      .input-login-user{
+        width:90% ;
+        font-size:11px;
+       height: 2.4rem;
+    } 
+      .login-btn-land{
+    
+        color: rgb(255, 255, 254);
+        font-size: 13px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -1rem;
+        padding: 0.3rem 1rem;
+    }
+    .textlabel-signIn{
+      display: block;
+      font-size: 1.2rem;
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 1rem;
+  }
+  }
+
+  
+  @media screen and (max-width: 450px) {
+    
+    .title-login-user{
+      padding: 0.3rem 1rem ;
+      width: 60%;
+     margin-left: 20%;
+     font-size: 1rem;
+   
+    }
+      .form-signIn {
+        width:90%;
+        height: 80%;
+        margin-top: 5rem;
+      }
+     
+        .forget-password-login-user{
+          font-size: 0.7rem;
+          font-weight: bolder;
+        }
+        .textlabel-signIn{
+         
+          font-size: 1rem; 
+          margin-top: 1rem;
+          margin-left: 0;
+         
+      }
+      .input-login-user{
+        width:90% ;
+        font-size:10px;
+       height: 2.3rem;
+    } 
+      .login-btn-land{
+        color: rgb(255, 255, 254);
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 0.3rem 2rem;
+    }
+    .textlabel-signIn{
+      display: block;
+      font-size: 1rem;
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 1rem;
+  }
+  }
+
+
+  @media screen and (max-width: 300px) {
+    
+    .title-login-user{
+      padding: 0.8rem 1rem ;
+      width: 60%;
+     margin-left: 20%;
+     font-size: 0.9rem;
+   
+    }
+    .signIn-title{
+      font-size: 1.2rem;
+      margin: 1rem;
+      margin-top: -0.5rem;
+      
+    }
+      .form-signIn {
+        width:85%;
+        height: 55%;
+        
+      }
+     
+        .forget-password-login-user{
+          margin: 1.5rem;
+        }
+        .credentials{
+          font-size: 0.5rem;
+       
+        }
+        .textlabel-signIn{
+          font-size: 1.2rem;
+          margin-top: 1rem;
+         
+      }
+      .input-login-user{
+        width:100% ;
+        font-size:9px;
+       height: 2rem;
+    } 
+    .login-btn-land{
+      color: rgb(255, 255, 254);
+      font-size: 15px;
+      letter-spacing: 1px;
+      padding: 0.3rem 2rem;
+  }
+    .textlabel-signIn{
+      display: block;
+      font-size: 0.8rem;
+      text-align: left;
+      font-weight: bolder;
+      margin-top: 1rem;
+
+  }
+  .forget-password-login-user{
+    display:inline-block;
+    cursor:pointer;
+   color: rgb(239, 232, 232);
+   font-size: 0.6rem;
+  }
+  }

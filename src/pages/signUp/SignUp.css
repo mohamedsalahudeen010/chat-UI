@@ -1,0 +1,757 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+}
+.signUpPage {
+  background-image: url("../../images/chat4.webp");
+  width: 100%;  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+ 
+}
+
+.signUp-user-main {
+  padding-top: 5%;
+ 
+}
+.name-title-signUp {
+  width: 100%;
+}
+
+.signup-title-2-user {
+  font-size: 2rem;
+  color: black;
+  margin: 0.5rem;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-signup-user {
+  align-items: center;
+  padding: 0.5rem 3rem;
+  width: 70%;
+  min-height: 55vh;
+ margin-left:15% ;
+ background-color: rgba(34, 33, 33, 0.7);
+ border-radius: 2rem;
+}
+form {
+  padding: 2px 5px;
+}
+div {
+  padding: 2px 5px;
+}
+h1 {
+  text-align: center;
+  color: silver;
+  margin-top: -1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.textlabel {
+  display: block;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bolder;
+  margin-top: 0.5rem;
+  color: rgb(255, 253, 253);
+}
+.input-signUp-user {
+  width: 100%;
+  font-size: 15px;
+  border-radius: 0 5px 0 0;
+  padding: 2px 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px rgb(28, 28, 27);
+  margin: 5px 0px 2px;
+  height: 3rem;
+}
+
+input:focus {
+  background-color: rgb(184, 225, 197);
+}
+
+.btn {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(191, 194, 92);
+  color: whitesmoke;
+}
+
+.signUp-btn{
+  background-color: rgb(206, 203, 18);
+  color: rgb(11, 11, 11);
+  font-size: 20px;
+  border-radius: 7px;
+  font-weight: bolder;
+  padding: 3px 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 1rem;
+}
+.signUp-btn:hover {
+  background-color: rgb(193, 22, 22);
+  color: rgb(242, 235, 235);
+  font-size: 21px;
+
+}
+.input2 {
+  
+  width: 45%;
+  float: right;
+}
+.input1 {
+ 
+  width: 45%;
+  float: left;
+}
+
+.input5 {
+  
+  width: 100%;
+  float: right;
+}
+
+.sup-login {
+  color: rgb(173, 190, 14);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.sup-login:hover {
+  color: rgb(210, 47, 47);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.foot-signUp {
+  margin-top: 0rem;
+  text-align: center;
+  margin-left: 18%;
+}
+.form-alert-signUp{
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: -0.8rem;
+}
+.terms-label{
+font-size: 1rem;
+}
+.remember-signUp{
+  width: 100%;
+
+  height: 2rem;
+  margin-top: 24rem;
+}
+
+.foot-signUp{
+  width: 100%;
+  text-align:justify;
+  font-size: 1.1rem;
+  font-weight: bold
+}
+
+
+@media screen and (max-width: 1200px) {
+  .signUpPage {
+    padding-top: 1rem;
+ 
+  }
+  .signUp-user-main {
+    padding-top: 6%;
+ 
+  }
+  .title-signUp-user {
+    font-size: 2.2rem;
+  }
+  .signup-title-2-user {
+    font-size: 1.7rem;
+
+  }
+  .form-signup-user {
+    padding: 0.5rem 2rem;
+    width: 80%;
+
+  }
+
+  form {
+    padding: 5px;
+  }
+  div {
+    padding: 5px;
+  }
+
+  .textlabel {
+    font-size: 15px;
+
+    margin-top: 1rem;
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px 5px;
+    margin: 5px 0px 2px;
+    height: 2.5rem;
+  }
+
+  .signUp-btn {
+    font-size: 17px;
+    border-radius: 7px;
+    padding: 5px 6px;
+    margin-left: 1rem;
+  }
+  .signUp-btn:hover {
+    background-color: rgb(39, 38, 38);
+    color: rgb(83, 187, 83);
+    font-size: 18px;
+  
+  }
+
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1.2rem;
+  }
+
+  .foot-signUp {
+    margin-top: 0rem;
+  }
+  .terms-label{
+    font-size: 0.9rem;
+    }
+    .foot-signUp{
+      width: 100%;
+     
+      font-size: 1rem;
+    
+    }
+    .sup-login {
+      font-size: 1rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 1.1rem;
+    }
+    .remember-signUp{
+      margin-top: 22rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  .signUpPage {
+    padding-top: 4rem;
+    margin-top: -4rem;
+  }
+  .signUp-user-main {
+    padding-top: 6%;
+  }
+  .title-signUp-user {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .signup-title-2-user {
+    font-size: 1.5rem;
+  }
+  .form-signup-user {
+    padding: 0.5rem 2rem;
+    width: 80%;
+margin-left: 10%;
+  }
+
+  form {
+    padding: 5px;
+  }
+  div {
+    padding: 5px;
+  }
+  h1 {
+    margin-top: -1rem;
+  }
+  .textlabel {
+    font-size: 13px;
+
+    margin-top: 1rem;
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px 5px;
+    margin: 5px 0px 2px;
+    height: 2.4rem;
+  }
+
+  .signUp-btn {
+    font-size: 17px;
+    border-radius: 7px;
+    padding: 5px 6px;
+    margin-left: 1rem;
+  }
+
+
+  .signUp-btn:hover {
+     font-size: 18px;
+  }
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1.2rem;
+  }
+  .terms-label{
+    font-size: 0.8rem;
+    }
+    .foot-signUp{
+      width: 100%;
+     
+      font-size: 0.8rem;
+    
+    }
+    .sup-login {
+      font-size: 0.9rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 1rem;
+    }
+    .remember-signUp{
+      margin-top: 21rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+  .signUpPage {
+    padding-top: 5rem;
+    margin-top: -4rem;
+
+  }
+  .signUp-user-main {
+    padding-top: 4%;
+  }
+  .title-signUp-user {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .signup-title-2-user {
+    font-size: 1.2rem;
+    
+
+    margin: 0.5rem;
+
+
+  }
+  .form-signup-user {
+    padding: 0.5rem 2rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  form {
+    padding: 2px;
+  }
+  div {
+    padding: 2px;
+  }
+  h1 {
+    margin-top: -1rem;
+  }
+  .textlabel {
+    font-size: 11px;
+    margin-top: 1rem;
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px 5px;
+    margin: 3px 0px 2px;
+    height: 2.3rem;
+  }
+
+
+
+  .signUp-btn {
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 5px 6px;
+    margin-left: 1rem;
+  }
+  .signUp-btn:hover {
+    font-size: 15px;
+ }
+ 
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1.2rem;
+  }
+
+  .form-alert-signUp{
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: -0.8rem;
+  }
+  .terms-label{
+    font-size: 0.7rem;
+
+    }
+    .foot-signUp{
+      width: 100%;
+     
+      font-size: 0.7rem;
+    
+    }
+    .sup-login {
+      font-size: 0.8rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 0.9rem;
+    }
+    .remember-signUp{
+      margin-top: 19rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+  .signUpPage {
+    padding-top: 5rem;
+    margin-top: -4rem;
+ 
+  }
+  .signUp-user-main {
+    padding-top: 6%;
+
+  }
+  .title-signUp-user {
+    font-size: 1.9rem;
+  
+    margin-top: 1rem;
+  }
+  .signup-title-2-user {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+ 
+
+  }
+  .form-signup-user {
+    padding: 0.5rem 2rem;
+    width: 80%;
+    height: 50%;
+  }
+
+  form {
+    padding: 2px;
+  }
+  div {
+    padding: 2px;
+  }
+  h1 {
+    margin-top: -1rem;
+  }
+  .textlabel {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px 5px;
+    margin: 5px 0px 2px;
+    height: 2.2rem;
+  }
+
+
+
+  .signUp-btn {
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 5px 6px;
+    margin-left: 1rem;
+  }
+  .signUp-btn:hover {
+    font-size: 15px;
+ }
+ 
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1rem;
+  }
+
+  .form-alert-signUp{
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: -0.8rem;
+  }
+  .terms-label{
+    font-size: 0.6rem;
+    }
+    .foot-signUp{
+      width: 100%;
+     
+      font-size: 0.6rem;
+    margin-left: -1rem;
+    }
+    .sup-login {
+      font-size: 0.8rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 0.9rem;
+    }
+    .remember-signUp{
+      margin-top: 18rem;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+  .signUpPage {
+    padding-top: 5rem;
+    margin-top: -4rem;
+
+  }
+  .signUp-user-main {
+    padding-top: 6%;
+
+  }
+  .title-signUp-user {
+    font-size: 1.8rem;
+    
+    margin-top: 1rem;
+
+
+  }
+  .signup-title-2-user {
+    font-size: 1rem;
+    
+    margin: 0.5rem;
+  
+    width: 100%;
+  }
+  .form-signup-user {
+    padding: 0.2rem 1rem;
+    height: 80%;
+    width: 80%;
+
+  }
+
+
+  
+  h1 {
+    margin-top: -1rem;
+  }
+  .textlabel {
+    font-size: 10px;
+   
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 5px;
+    margin: 5px 0px 2px;
+    height: 2.5rem;
+  }
+
+
+
+  .signUp-btn {
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 3px 6px;
+    margin-left: 1rem;
+  }
+  .signUp-btn:hover {
+    font-size: 15px;
+ }
+ 
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1rem;
+  }
+
+  .form-alert-signUp{
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: -0.8rem;
+  }
+  .terms-label{
+    font-size: 0.5rem;
+    }
+
+    .sup-login {
+      font-size: 0.7rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 0.8rem;
+    }
+    .remember-signUp{
+      margin-top: 14rem;
+    }
+    .foot-signUp{
+      width: 120%;
+     
+      font-size: 0.6rem;
+    margin-left: -3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+  .signUpPage {
+    padding-top: 2rem;
+    margin-top: -4rem;
+    min-height: 80vh;
+  }
+  .title-signUp-user {
+    font-size: 1.5rem;
+
+    margin-top: 0rem;
+
+  }
+  .signup-title-2-user {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .signUp-user-main {
+    
+  }
+  .form-signup-user {
+    padding: 0.2rem 1rem;
+    margin-top: 2rem;
+ 
+  }
+
+  .input-signUp-user {
+    
+    height: 2.5rem;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .signUpPage {
+    padding-top: 5rem;
+    
+
+  }
+  .signUp-user-main {
+    padding-top: 2%;
+
+  }
+  .title-signUp-user {
+    font-size: 1.5rem;
+
+    margin-top: 0rem;
+
+  }
+  .signup-title-2-user {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .form-signup-user {
+    padding: 0.2rem 0;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    padding: 1rem;
+  }
+
+  form {
+    padding: 2px;
+  }
+  div {
+    padding: 2px;
+  }
+  h1 {
+    margin-top: -1rem;
+  }
+  .textlabel {
+    font-size: 10px;
+   
+  }
+  .input-signUp-user {
+    width: 100%;
+    font-size: 15px;
+    padding: 2px 5px;
+    margin: 5px 0px 2px;
+    height: 1.5rem;
+  }
+
+
+
+  .signUp-btn {
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 2px 6px;
+    margin-left: 1rem;
+  }
+  .signUp-btn:hover {
+    font-size: 15px;
+ }
+ 
+  .sup-login {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .sup-login:hover {
+    color: rgb(186, 53, 53);
+    font-size: 1rem;
+  }
+
+  .form-alert-signUp{
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: -0.8rem;
+  }
+  .terms-label{
+    font-size: 0.5rem;
+    }
+
+    .sup-login {
+      font-size: 0.7rem;
+    }
+    
+    .sup-login:hover {
+      font-size: 0.8rem;
+    }
+    .remember-signUp{
+      margin-top:13rem;
+    }
+    .foot-signUp{
+      width: 120%;
+     
+      font-size: 0.6rem;
+    margin-left: -2rem;
+    }
+    .input-signUp-user {
+    
+      height: 2.5rem;
+    }
+  
+}

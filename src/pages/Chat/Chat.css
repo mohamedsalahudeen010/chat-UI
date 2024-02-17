@@ -1,0 +1,7 @@
+.chatPage{
+    top: 0px;
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-height: 100vh;
+}
